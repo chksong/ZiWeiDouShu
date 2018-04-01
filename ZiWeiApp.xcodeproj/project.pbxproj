@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B020B4B6205959F300BE185C /* CalcZiWei.m in Sources */ = {isa = PBXBuildFile; fileRef = B020B4B5205959F300BE185C /* CalcZiWei.m */; };
+		B0A81E4D204D879300B2C5A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A81E4C204D879300B2C5A7 /* AppDelegate.m */; };
+		B0A81E53204D879300B2C5A7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A81E52204D879300B2C5A7 /* SecondViewController.m */; };
+		B0A81E56204D879300B2C5A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A81E54204D879300B2C5A7 /* Main.storyboard */; };
+		B0A81E58204D879300B2C5A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A81E57204D879300B2C5A7 /* Assets.xcassets */; };
+		B0A81E5B204D879300B2C5A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A81E59204D879300B2C5A7 /* LaunchScreen.storyboard */; };
+		B0A81E5E204D879300B2C5A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A81E5D204D879300B2C5A7 /* main.m */; };
+		B0E540592053F30600A907D1 /* ZiWeiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E540582053F30600A907D1 /* ZiWeiViewController.m */; };
+		B0E5405C2054068200A907D1 /* ZiWeiItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E5405B2054068200A907D1 /* ZiWeiItemView.m */; };
+		D3350D1B85A027FC0FDC9B88 /* libPods-ZiWeiApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9092ECF42344D8AF5164B445 /* libPods-ZiWeiApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78C4420324C2A441BC150D72 /* Pods-ZiWeiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZiWeiApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZiWeiApp/Pods-ZiWeiApp.release.xcconfig"; sourceTree = "<group>"; };
+		9092ECF42344D8AF5164B445 /* libPods-ZiWeiApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZiWeiApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B020B4B4205959F300BE185C /* CalcZiWei.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcZiWei.h; sourceTree = "<group>"; };
+		B020B4B5205959F300BE185C /* CalcZiWei.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcZiWei.m; sourceTree = "<group>"; };
+		B0A81E48204D879300B2C5A7 /* ZiWeiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZiWeiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A81E4B204D879300B2C5A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0A81E4C204D879300B2C5A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0A81E51204D879300B2C5A7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B0A81E52204D879300B2C5A7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B0A81E55204D879300B2C5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0A81E57204D879300B2C5A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0A81E5A204D879300B2C5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0A81E5C204D879300B2C5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A81E5D204D879300B2C5A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0E540572053F30600A907D1 /* ZiWeiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZiWeiViewController.h; sourceTree = "<group>"; };
+		B0E540582053F30600A907D1 /* ZiWeiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZiWeiViewController.m; sourceTree = "<group>"; };
+		B0E5405A2054068200A907D1 /* ZiWeiItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZiWeiItemView.h; sourceTree = "<group>"; };
+		B0E5405B2054068200A907D1 /* ZiWeiItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZiWeiItemView.m; sourceTree = "<group>"; };
+		D0DA454332A488F11A52973D /* Pods-ZiWeiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZiWeiApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZiWeiApp/Pods-ZiWeiApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0A81E45204D879300B2C5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3350D1B85A027FC0FDC9B88 /* libPods-ZiWeiApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CFF55144A08CADBF2FFC2DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9092ECF42344D8AF5164B445 /* libPods-ZiWeiApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		809DC5E7DB0B863FB132CDED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0DA454332A488F11A52973D /* Pods-ZiWeiApp.debug.xcconfig */,
+				78C4420324C2A441BC150D72 /* Pods-ZiWeiApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B0A81E3F204D879200B2C5A7 = {
+			isa = PBXGroup;
+			children = (
+				B0A81E4A204D879300B2C5A7 /* ZiWeiApp */,
+				B0A81E49204D879300B2C5A7 /* Products */,
+				809DC5E7DB0B863FB132CDED /* Pods */,
+				4CFF55144A08CADBF2FFC2DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0A81E49204D879300B2C5A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0A81E48204D879300B2C5A7 /* ZiWeiApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0A81E4A204D879300B2C5A7 /* ZiWeiApp */ = {
+			isa = PBXGroup;
+			children = (
+				B0A81E4B204D879300B2C5A7 /* AppDelegate.h */,
+				B0A81E4C204D879300B2C5A7 /* AppDelegate.m */,
+				B0A81E51204D879300B2C5A7 /* SecondViewController.h */,
+				B0A81E52204D879300B2C5A7 /* SecondViewController.m */,
+				B0A81E54204D879300B2C5A7 /* Main.storyboard */,
+				B0A81E57204D879300B2C5A7 /* Assets.xcassets */,
+				B0A81E59204D879300B2C5A7 /* LaunchScreen.storyboard */,
+				B0A81E5C204D879300B2C5A7 /* Info.plist */,
+				B0A81E5D204D879300B2C5A7 /* main.m */,
+				B0E540572053F30600A907D1 /* ZiWeiViewController.h */,
+				B0E540582053F30600A907D1 /* ZiWeiViewController.m */,
+				B0E5405A2054068200A907D1 /* ZiWeiItemView.h */,
+				B0E5405B2054068200A907D1 /* ZiWeiItemView.m */,
+				B020B4B4205959F300BE185C /* CalcZiWei.h */,
+				B020B4B5205959F300BE185C /* CalcZiWei.m */,
+			);
+			path = ZiWeiApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0A81E47204D879300B2C5A7 /* ZiWeiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A81E61204D879300B2C5A7 /* Build configuration list for PBXNativeTarget "ZiWeiApp" */;
+			buildPhases = (
+				4A4F51BC16CD95DDFB4009F5 /* [CP] Check Pods Manifest.lock */,
+				B0A81E44204D879300B2C5A7 /* Sources */,
+				B0A81E45204D879300B2C5A7 /* Frameworks */,
+				B0A81E46204D879300B2C5A7 /* Resources */,
+				F87763592AAF96049458B8EF /* [CP] Embed Pods Frameworks */,
+				DA2AEBE32648098F315B7B08 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZiWeiApp;
+			productName = ZiWeiApp;
+			productReference = B0A81E48204D879300B2C5A7 /* ZiWeiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0A81E40204D879300B2C5A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = cn.goipc;
+				TargetAttributes = {
+					B0A81E47204D879300B2C5A7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B0A81E43204D879300B2C5A7 /* Build configuration list for PBXProject "ZiWeiApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0A81E3F204D879200B2C5A7;
+			productRefGroup = B0A81E49204D879300B2C5A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0A81E47204D879300B2C5A7 /* ZiWeiApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0A81E46204D879300B2C5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A81E5B204D879300B2C5A7 /* LaunchScreen.storyboard in Resources */,
+				B0A81E58204D879300B2C5A7 /* Assets.xcassets in Resources */,
+				B0A81E56204D879300B2C5A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A4F51BC16CD95DDFB4009F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZiWeiApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA2AEBE32648098F315B7B08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZiWeiApp/Pods-ZiWeiApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F87763592AAF96049458B8EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZiWeiApp/Pods-ZiWeiApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0A81E44204D879300B2C5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E540592053F30600A907D1 /* ZiWeiViewController.m in Sources */,
+				B0A81E53204D879300B2C5A7 /* SecondViewController.m in Sources */,
+				B0A81E4D204D879300B2C5A7 /* AppDelegate.m in Sources */,
+				B0E5405C2054068200A907D1 /* ZiWeiItemView.m in Sources */,
+				B0A81E5E204D879300B2C5A7 /* main.m in Sources */,
+				B020B4B6205959F300BE185C /* CalcZiWei.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0A81E54204D879300B2C5A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0A81E55204D879300B2C5A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0A81E59204D879300B2C5A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0A81E5A204D879300B2C5A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0A81E5F204D879300B2C5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0A81E60204D879300B2C5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0A81E62204D879300B2C5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0DA454332A488F11A52973D /* Pods-ZiWeiApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C742MFKJBB;
+				INFOPLIST_FILE = ZiWeiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iaski.ZiWeiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B0A81E63204D879300B2C5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C4420324C2A441BC150D72 /* Pods-ZiWeiApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C742MFKJBB;
+				INFOPLIST_FILE = ZiWeiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iaski.ZiWeiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0A81E43204D879300B2C5A7 /* Build configuration list for PBXProject "ZiWeiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A81E5F204D879300B2C5A7 /* Debug */,
+				B0A81E60204D879300B2C5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A81E61204D879300B2C5A7 /* Build configuration list for PBXNativeTarget "ZiWeiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A81E62204D879300B2C5A7 /* Debug */,
+				B0A81E63204D879300B2C5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0A81E40204D879300B2C5A7 /* Project object */;
+}
